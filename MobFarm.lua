@@ -1,7 +1,7 @@
 --(c) Nvirjskly 2013
 --
 
-if fs.exists("mobs.farm")
+if fs.exists("mobs.farm") then
 	file = io.open("mobs.farm","r")
 else
 	file = io.open("mobs.farm","w")
